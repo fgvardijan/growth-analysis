@@ -1,10 +1,10 @@
 # Data Driven Growth
 
-In this series of notebooks notebooks I explore how to fuel growth by applying predictive approach to all actions with a combinations of programming, data analysis and machine learning.
+In this series of notebooks notebooks I explore how to measure, analyze and drive growth by applying predictive approach to all actions with a combinations of programming, data analysis and machine learning.
 
 Topics covered are :
-1. Know Your Metrics
-1. Customer Segmentation
+1. Calcuating important metrics
+1. Customer Segmentation, RFM Clusters
 1. Customer Lifetime Value Prediction
 1. Churn Prediction
 1. Predicting Next Purchase Day
