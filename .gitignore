@@ -3,4 +3,4 @@ $RECYCLE.BIN
 .ipynb_checkpoints
 notebooks
 data
-
+.gitignore
