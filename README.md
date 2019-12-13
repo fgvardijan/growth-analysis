@@ -4,14 +4,14 @@ In this series of notebooks notebooks I explore how to measure, analyze and driv
 
 Topics covered are :
 1. Calcuating important metrics
-1. Customer Segmentation, RFM Clusters
-1. Customer Lifetime Value Prediction
-1. Churn Prediction
-1. Predicting Next Purchase Day
-1. Predicting Sales
-1. Market Response Models
-1. Uplift Modeling
-1. A/B Testing Design and Execution
+1. Customer segmentation, RFM clusters
+1. Customer lifetime value prediction
+1. Churn prediction
+1. Predicting next purchase day
+1. Predicting sales
+1. Market response models
+1. Uplift modeling
+1. A/B testing design and execution
 
 
 

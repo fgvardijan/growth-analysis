@@ -1,3 +1,6 @@
 $RECYCLE.BIN
 .Rproj.user
-.ipynb_checkpoints/
+.ipynb_checkpoints
+notebooks
+data
+
