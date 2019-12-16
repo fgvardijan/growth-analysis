@@ -4,3 +4,4 @@ $RECYCLE.BIN
 notebooks
 data
 .gitignore
+__pycache__

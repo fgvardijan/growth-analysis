@@ -47,7 +47,6 @@ def get_rfm_clusters(tx_data):
     kmeans = KMeans(n_clusters=4)
     kmeans.fit(tx_user[['Recency']])
     tx_user['RecencyCluster'] = kmeans.predict(tx_user[['Recency']])
-
     tx_user = order_cluster('RecencyCluster', 'Recency', tx_user, False)
     
     #calcuate frequency score
@@ -58,8 +57,7 @@ def get_rfm_clusters(tx_data):
     kmeans = KMeans(n_clusters=4)
     kmeans.fit(tx_user[['Frequency']])
     tx_user['FrequencyCluster'] = kmeans.predict(tx_user[['Frequency']])
-
-    tx_user = order_cluster('FrequencyCluster', 'Frequency',tx_user,True)
+    tx_user = order_cluster('FrequencyCluster', 'Frequency', tx_user, True)
     
     #calcuate revenue score
     tx_data['Revenue'] = tx_data['UnitPrice'] * tx_data['Quantity']
@@ -69,7 +67,8 @@ def get_rfm_clusters(tx_data):
     
     kmeans = KMeans(n_clusters=4)
     kmeans.fit(tx_user[['Revenue']])
-    tx_user['RevenueCluster'] = kmeans.predict(tx_user[['Revenue']])
+    tx_user['RevenueCluster'] = kmeans.predict(tx_user[['Revenue']]) 
+    tx_user = order_cluster('RevenueCluster', 'Revenue', tx_user, True)
     
     # overall score
     tx_user['OverallScore'] = tx_user.eval("RecencyCluster + FrequencyCluster + RevenueCluster")
