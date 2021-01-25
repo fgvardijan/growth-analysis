@@ -502,5 +502,3 @@ print('Predicted BOGO Uptick - Order: {}, Revenue: {}'.format(pred_bogo_uptick, 
 # The error rate is around 5.6%. The model can benefit from improving the prediction scores on BOGO offer type.
 #
 # Calculating conversion probabilities help us a lot in different areas as well. We have predicted the return of the different types of offers but it can help us to find out who to target for maximizing the uplift as well. In the next article, we will build our own uplift model.
-
-# %%
